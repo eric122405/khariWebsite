@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khari | Personal Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdf6f0;
+      color: #333;
+    }
+    header {
+      background: #ffb6b9;
+      padding: 2rem;
+      text-align: center;
+      color: white;
+    }
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-top: 1rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #ffb6b9;
+      padding-bottom: 0.5rem;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    .project {
+      background: #fff;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    form input, form textarea {
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background: #ffb6b9;
+      color: white;
+      border: none;
+      padding: 0.75rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #fce1e3;
+      color: #555;
+    }
+    @media (max-width: 600px) {
+      .projects {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Khari</h1>
+  <p>Welcome to my personal space on the web 💖</p>
+  <img src="https://assets.onecompiler.app/43gqkbwkh/43gqjv78a/Messenger_creation_091D4CF1-6D08-4FC5-858C-EC3C87B08022.jpeg" alt="Khari's photo" />
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>Hi, I’m Khari! I love expressing myself through art, music, and thoughtful writing. Whether I'm exploring new hobbies or connecting with others, I always bring kindness and creativity to the table.</p>
+</section>
+
+<section>
+  <h2>My Projects / Hobbies</h2>
+  <div class="projects">
+    <div class="project">
+      <h3>Art Portfolio</h3>
+      <p>A collection of my digital and traditional art pieces.</p>
+    </div>
+    <div class="project">
+      <h3>Blog</h3>
+      <p>I write about life, self-discovery, and things I love.</p>
+    </div>
+    <div class="project">
+      <h3>Photography</h3>
+      <p>I capture quiet moments and beautiful things.</p>
+    </div>
+    <div class="project">
+      <h3>Music</h3>
+      <p>From playlists to creating sound – music is my vibe.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Contact Me</h2>
+  <form>
+    <input type="text" placeholder="Your name" required />
+    <input type="email" placeholder="Your email" required />
+    <textarea rows="5" placeholder="Your message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>Made with 💕 by Khari — © 2025</p>
+</footer>
+
+</body>
+</html>
